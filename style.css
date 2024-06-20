@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    height: 10vh;
+    align-items: center;
+}
+
+
+/* Styling the unordered list */
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+
+/* Styling the logo */
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 1000;
+}
+
+
+/* Styling the links */
+a{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+
+/* Styling the second section */
+.second-section{
+    display: flex;
+    background-color: #1f2937;
+    height: 40vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* The text container */
+.text{
+    width: 400px;
+}
+
+/* the heading text */
+.heading-text{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+/* the heading's text */
+.small-para{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    width: 20vh;
+    border-radius: 5px;
+}
+
+
+/* Styling the box */
+.image-placeholder{
+    height: 30vh;
+    width: 100vh;
+    border: 2px solid grey;
+    border-style: dashed;
+    background-color: grey;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+/* Third section - Some random information */
+.third-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+}
+
+/* Information heading text */
+.Information-heading{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+}
+
+/* Styling the boxes */
+.box-container{
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Styling the boxes */
+.box{
+    height: 25vh;
+    width: 25vh;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.box-text-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+/* Quote Section */
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+/* Quote container */
+.quote{
+    width: 80vw;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+/* Speaker of the quote */
+.speaker{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+
+
+/* Fifth section - call to action */
+.fifth-section{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+}
+
+/* call to container */
+.call-to-heading{
+    font-size: 25px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+.call-to-text{
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.call-to-button{
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid white;
+    margin-right: 2vw;
+}
+
+
+/* Footer */
+.footer{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 25px;
+    font-weight: 1000;
+}
