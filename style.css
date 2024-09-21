@@ -1,202 +1,235 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.header{
+.first-section {
+    height: 100vh;
+    width: 100%;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+nav {
+    height: 20%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 50%;
     justify-content: space-around;
-    background-color: #1f2937;
-    height: 10vh;
-    align-items: center;
 }
 
-
-/* Styling the unordered list */
-ul{
-    display: flex;
-    list-style-type: none;
-}
-
-
-/* Styling the logo */
-.logo{
+nav .logo {
     font-size: 24px;
-    color: #f9faf8;
-    font-weight: 1000;
+    font-weight: 700;
+    color: white;
 }
 
-
-/* Styling the links */
-a{
+ul li a {
     font-size: 18px;
-    color: #E5E7EB;
-    padding: 20px;
+    color: #e5e7eB;
     text-decoration: none;
+    font-family: roboto;
+    font-weight: 500;
 }
 
-
-
-/* Styling the second section */
-.second-section{
+.intro-container {
+    height: 70%;
+    width: 90%;
     display: flex;
-    background-color: #1f2937;
-    height: 40vh;
-    justify-content: space-evenly;
     align-items: center;
 }
 
-/* The text container */
-.text{
-    width: 400px;
+.intro {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 1rem;
 }
 
-/* the heading text */
-.heading-text{
+.intro h1 {
     font-size: 48px;
-    font-weight: 1000;
     color: #f9faf8;
+    font-family: roboto;
 }
 
-/* the heading's text */
-.small-para{
+.intro p {
+    width: 97%;
     font-size: 18px;
-    color: #E5E7EB;
+    font-family: roboto;
+    color: white;
 }
 
-button{
+.intro button {
+    width: 30%;
+    height: 10%;
     background-color: #3882f6;
-    color: white;
-    padding: 10px;
-    width: 20vh;
-    border-radius: 5px;
-}
-
-
-/* Styling the box */
-.image-placeholder{
-    height: 30vh;
-    width: 100vh;
-    border: 2px solid grey;
-    border-style: dashed;
-    background-color: grey;
-    text-align: center;
+    border: none;
     font-size: 18px;
-    color: white;
+    font-family: roboto;
+    color: #e5e7eB;
 }
 
-
-
-/* Third section - Some random information */
-.third-section{
+.image-container {
+    height: 100%;
+    width: 60%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 40vh;
-}
-
-/* Information heading text */
-.Information-heading{
-    font-size: 36px;
-    font-weight: 1000;
-    color: #1f2937;
-}
-
-/* Styling the boxes */
-.box-container{
-    display: flex;
-    height: 40vh;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-/* Styling the boxes */
-.box{
-    height: 25vh;
-    width: 25vh;
-    border: 2px solid blue;
-    border-radius: 8px;
-    margin-top: 20px;
-}
-
-.box-text-container{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    font-size: 20px;
-}
-
-
-/* Quote Section */
-.quote-section{
-    display: flex;
-    flex-direction: column;
-    height: 30vh;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
 }
 
-/* Quote container */
-.quote{
-    width: 80vw;
+.image-container p {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(15, 12%, 31%, 1);
+    color: white;
+    font-size: 18px;
+    font-family: roboto;
+}
+
+
+/* Second section */
+.second-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-section h1 {
     font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-    color: #1f2937;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
 }
 
-/* Speaker of the quote */
-.speaker{
+.second-section .illustration-container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.illustration-container .illustration {
+    height: 80%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.illustration .box {
+    height: 80%;
+    border: 3px solid blue;
+}
+
+
+/* Third section */
+.third-section {
+    height: 30vh;
+    width: 100%;
+    background-color: #e5e7eB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.quote-container {
+    height: 90%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: roboto;
+}
+
+.speaker-container {
+    width: 80%;
     display: flex;
     justify-content: flex-end;
-    width: 30%;
-    font-size: 18px;
-    font-weight: 1000;
+    font-size: 1.3rem;
+    font-family: roboto;
 }
 
 
-
-/* Fifth section - call to action */
-.fifth-section{
+/* fourth section */
+.fourth-section {
+    height: 50vh;
+    width: 100%;
     display: flex;
-    height: 30vh;
     justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+}
+
+.call-to-action-container {
+    height: 60%;
+    width: 90%;
     background-color: #3882f6;
-}
-
-/* call to container */
-.call-to-heading{
-    font-size: 25px;
-    font-weight: 1000;
-    color: #f9faf8;
-}
-
-.call-to-text{
-    font-size: 18px;
-    color: #f9faf8;
-    font-weight: 700;
-}
-
-.call-to-button{
-    font-size: 18px;
-    padding: 5px;
-    border: 2px solid white;
-    margin-right: 2vw;
-}
-
-
-/* Footer */
-.footer{
     display: flex;
-    height: 10vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.information {
+    height: 50%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.information h2 {
+    font-family: roboto;
+    color: white;
+    font-size: 24px;
+}
+
+.information p {
+    font-family: roboto;
+    color: white;
+    font-size: 16px;
+}
+
+.call-to-action-container button {
+    border: none;
+    height: 25%;
+    width: 20%;
+    border: 2px solid white;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+footer {
+    height: 20vh;
+    background-color: #1f2937;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
-    color: #E5E7EB;
-    font-size: 25px;
-    font-weight: 1000;
+    font-size: 24px;
+    color: white;
+    font-family: roboto;
 }
